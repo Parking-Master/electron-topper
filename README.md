@@ -90,15 +90,21 @@ topper.closeAll();
   - Sends a system notification. The "title" parameter can also be an object with advanced options.
   - __Supported systems__: Mac, Windows, Linux
   <br>
+  
   └ param: `options`: { title: string, subtitle: string, body: string, icon: string, button: string, silent: boolean, options: object }
   <br>
+  
   └ param: `options.options`: __Supported systems__: Mac
 
 - ### `timeout`: function timeout(timeout: number, title | options: string | object, body: string, icon: string, button: string)
   - Sends a system notification with a timeout. Timeout is in milliseconds (ms). The "title" parameter can also be an object with advanced options.
   - __Supported systems__: Mac, Windows, Linux
   <br>
+  
   └ param: `options`: { title: string, subtitle: string, body: string, icon: string, button: string, silent: boolean, options: object }
+  <br>
+  
+  └ param: `options.options`: __Supported systems__: Mac
 
 - ### `close`: function close(id: string)
   - Closes an opened notification.
